@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07E74481191AA5B20050F855 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07E74480191AA5B20050F855 /* Foundation.framework */; };
+		07E74483191AA5B20050F855 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07E74482191AA5B20050F855 /* CoreGraphics.framework */; };
+		07E74485191AA5B20050F855 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07E74484191AA5B20050F855 /* UIKit.framework */; };
+		07E74487191AA5B20050F855 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07E74486191AA5B20050F855 /* CoreData.framework */; };
+		07E7448D191AA5B20050F855 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07E7448B191AA5B20050F855 /* InfoPlist.strings */; };
+		07E7448F191AA5B20050F855 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E7448E191AA5B20050F855 /* main.m */; };
+		07E74493191AA5B20050F855 /* CBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E74492191AA5B20050F855 /* CBAppDelegate.m */; };
+		07E74496191AA5B20050F855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E74494191AA5B20050F855 /* Main.storyboard */; };
+		07E74499191AA5B20050F855 /* iPad_Split.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07E74497191AA5B20050F855 /* iPad_Split.xcdatamodeld */; };
+		07E7449C191AA5B20050F855 /* CBMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E7449B191AA5B20050F855 /* CBMasterViewController.m */; };
+		07E7449F191AA5B20050F855 /* CBDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E7449E191AA5B20050F855 /* CBDetailViewController.m */; };
+		07E744A1191AA5B20050F855 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07E744A0191AA5B20050F855 /* Images.xcassets */; };
+		07E744A8191AA5B20050F855 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07E744A7191AA5B20050F855 /* XCTest.framework */; };
+		07E744A9191AA5B30050F855 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07E74480191AA5B20050F855 /* Foundation.framework */; };
+		07E744AA191AA5B30050F855 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07E74484191AA5B20050F855 /* UIKit.framework */; };
+		07E744AB191AA5B30050F855 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07E74486191AA5B20050F855 /* CoreData.framework */; };
+		07E744B3191AA5B30050F855 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07E744B1191AA5B30050F855 /* InfoPlist.strings */; };
+		07E744B5191AA5B30050F855 /* iPad_SplitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E744B4191AA5B30050F855 /* iPad_SplitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07E744AC191AA5B30050F855 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07E74475191AA5B20050F855 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07E7447C191AA5B20050F855;
+			remoteInfo = "iPad Split";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07E7447D191AA5B20050F855 /* iPad Split.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPad Split.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07E74480191AA5B20050F855 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07E74482191AA5B20050F855 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07E74484191AA5B20050F855 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07E74486191AA5B20050F855 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		07E7448A191AA5B20050F855 /* iPad Split-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPad Split-Info.plist"; sourceTree = "<group>"; };
+		07E7448C191AA5B20050F855 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07E7448E191AA5B20050F855 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07E74490191AA5B20050F855 /* iPad Split-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPad Split-Prefix.pch"; sourceTree = "<group>"; };
+		07E74491191AA5B20050F855 /* CBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBAppDelegate.h; sourceTree = "<group>"; };
+		07E74492191AA5B20050F855 /* CBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBAppDelegate.m; sourceTree = "<group>"; };
+		07E74495191AA5B20050F855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07E74498191AA5B20050F855 /* iPad_Split.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iPad_Split.xcdatamodel; sourceTree = "<group>"; };
+		07E7449A191AA5B20050F855 /* CBMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBMasterViewController.h; sourceTree = "<group>"; };
+		07E7449B191AA5B20050F855 /* CBMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBMasterViewController.m; sourceTree = "<group>"; };
+		07E7449D191AA5B20050F855 /* CBDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBDetailViewController.h; sourceTree = "<group>"; };
+		07E7449E191AA5B20050F855 /* CBDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBDetailViewController.m; sourceTree = "<group>"; };
+		07E744A0191AA5B20050F855 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07E744A6191AA5B20050F855 /* iPad SplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iPad SplitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07E744A7191AA5B20050F855 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		07E744B0191AA5B30050F855 /* iPad SplitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPad SplitTests-Info.plist"; sourceTree = "<group>"; };
+		07E744B2191AA5B30050F855 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07E744B4191AA5B30050F855 /* iPad_SplitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPad_SplitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07E7447A191AA5B20050F855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E74483191AA5B20050F855 /* CoreGraphics.framework in Frameworks */,
+				07E74487191AA5B20050F855 /* CoreData.framework in Frameworks */,
+				07E74485191AA5B20050F855 /* UIKit.framework in Frameworks */,
+				07E74481191AA5B20050F855 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E744A3191AA5B20050F855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E744A8191AA5B20050F855 /* XCTest.framework in Frameworks */,
+				07E744AB191AA5B30050F855 /* CoreData.framework in Frameworks */,
+				07E744AA191AA5B30050F855 /* UIKit.framework in Frameworks */,
+				07E744A9191AA5B30050F855 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07E74474191AA5B20050F855 = {
+			isa = PBXGroup;
+			children = (
+				07E74488191AA5B20050F855 /* iPad Split */,
+				07E744AE191AA5B30050F855 /* iPad SplitTests */,
+				07E7447F191AA5B20050F855 /* Frameworks */,
+				07E7447E191AA5B20050F855 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07E7447E191AA5B20050F855 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07E7447D191AA5B20050F855 /* iPad Split.app */,
+				07E744A6191AA5B20050F855 /* iPad SplitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07E7447F191AA5B20050F855 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07E74480191AA5B20050F855 /* Foundation.framework */,
+				07E74482191AA5B20050F855 /* CoreGraphics.framework */,
+				07E74484191AA5B20050F855 /* UIKit.framework */,
+				07E74486191AA5B20050F855 /* CoreData.framework */,
+				07E744A7191AA5B20050F855 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07E74488191AA5B20050F855 /* iPad Split */ = {
+			isa = PBXGroup;
+			children = (
+				07E74491191AA5B20050F855 /* CBAppDelegate.h */,
+				07E74492191AA5B20050F855 /* CBAppDelegate.m */,
+				07E74494191AA5B20050F855 /* Main.storyboard */,
+				07E7449A191AA5B20050F855 /* CBMasterViewController.h */,
+				07E7449B191AA5B20050F855 /* CBMasterViewController.m */,
+				07E7449D191AA5B20050F855 /* CBDetailViewController.h */,
+				07E7449E191AA5B20050F855 /* CBDetailViewController.m */,
+				07E744A0191AA5B20050F855 /* Images.xcassets */,
+				07E74497191AA5B20050F855 /* iPad_Split.xcdatamodeld */,
+				07E74489191AA5B20050F855 /* Supporting Files */,
+			);
+			path = "iPad Split";
+			sourceTree = "<group>";
+		};
+		07E74489191AA5B20050F855 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07E7448A191AA5B20050F855 /* iPad Split-Info.plist */,
+				07E7448B191AA5B20050F855 /* InfoPlist.strings */,
+				07E7448E191AA5B20050F855 /* main.m */,
+				07E74490191AA5B20050F855 /* iPad Split-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07E744AE191AA5B30050F855 /* iPad SplitTests */ = {
+			isa = PBXGroup;
+			children = (
+				07E744B4191AA5B30050F855 /* iPad_SplitTests.m */,
+				07E744AF191AA5B30050F855 /* Supporting Files */,
+			);
+			path = "iPad SplitTests";
+			sourceTree = "<group>";
+		};
+		07E744AF191AA5B30050F855 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07E744B0191AA5B30050F855 /* iPad SplitTests-Info.plist */,
+				07E744B1191AA5B30050F855 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07E7447C191AA5B20050F855 /* iPad Split */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07E744B8191AA5B30050F855 /* Build configuration list for PBXNativeTarget "iPad Split" */;
+			buildPhases = (
+				07E74479191AA5B20050F855 /* Sources */,
+				07E7447A191AA5B20050F855 /* Frameworks */,
+				07E7447B191AA5B20050F855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iPad Split";
+			productName = "iPad Split";
+			productReference = 07E7447D191AA5B20050F855 /* iPad Split.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07E744A5191AA5B20050F855 /* iPad SplitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07E744BB191AA5B30050F855 /* Build configuration list for PBXNativeTarget "iPad SplitTests" */;
+			buildPhases = (
+				07E744A2191AA5B20050F855 /* Sources */,
+				07E744A3191AA5B20050F855 /* Frameworks */,
+				07E744A4191AA5B20050F855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07E744AD191AA5B30050F855 /* PBXTargetDependency */,
+			);
+			name = "iPad SplitTests";
+			productName = "iPad SplitTests";
+			productReference = 07E744A6191AA5B20050F855 /* iPad SplitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07E74475191AA5B20050F855 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Carlos Butron";
+				TargetAttributes = {
+					07E744A5191AA5B20050F855 = {
+						TestTargetID = 07E7447C191AA5B20050F855;
+					};
+				};
+			};
+			buildConfigurationList = 07E74478191AA5B20050F855 /* Build configuration list for PBXProject "iPad Split" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07E74474191AA5B20050F855;
+			productRefGroup = 07E7447E191AA5B20050F855 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07E7447C191AA5B20050F855 /* iPad Split */,
+				07E744A5191AA5B20050F855 /* iPad SplitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07E7447B191AA5B20050F855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E744A1191AA5B20050F855 /* Images.xcassets in Resources */,
+				07E7448D191AA5B20050F855 /* InfoPlist.strings in Resources */,
+				07E74496191AA5B20050F855 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E744A4191AA5B20050F855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E744B3191AA5B30050F855 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07E74479191AA5B20050F855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E7448F191AA5B20050F855 /* main.m in Sources */,
+				07E74499191AA5B20050F855 /* iPad_Split.xcdatamodeld in Sources */,
+				07E7449F191AA5B20050F855 /* CBDetailViewController.m in Sources */,
+				07E74493191AA5B20050F855 /* CBAppDelegate.m in Sources */,
+				07E7449C191AA5B20050F855 /* CBMasterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E744A2191AA5B20050F855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E744B5191AA5B30050F855 /* iPad_SplitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07E744AD191AA5B30050F855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07E7447C191AA5B20050F855 /* iPad Split */;
+			targetProxy = 07E744AC191AA5B30050F855 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07E7448B191AA5B20050F855 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07E7448C191AA5B20050F855 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07E74494191AA5B20050F855 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07E74495191AA5B20050F855 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07E744B1191AA5B30050F855 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07E744B2191AA5B30050F855 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07E744B6191AA5B30050F855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		07E744B7191AA5B30050F855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07E744B9191AA5B30050F855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPad Split/iPad Split-Prefix.pch";
+				INFOPLIST_FILE = "iPad Split/iPad Split-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07E744BA191AA5B30050F855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPad Split/iPad Split-Prefix.pch";
+				INFOPLIST_FILE = "iPad Split/iPad Split-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		07E744BC191AA5B30050F855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iPad Split.app/iPad Split";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPad Split/iPad Split-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iPad SplitTests/iPad SplitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		07E744BD191AA5B30050F855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iPad Split.app/iPad Split";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPad Split/iPad Split-Prefix.pch";
+				INFOPLIST_FILE = "iPad SplitTests/iPad SplitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07E74478191AA5B20050F855 /* Build configuration list for PBXProject "iPad Split" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E744B6191AA5B30050F855 /* Debug */,
+				07E744B7191AA5B30050F855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07E744B8191AA5B30050F855 /* Build configuration list for PBXNativeTarget "iPad Split" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E744B9191AA5B30050F855 /* Debug */,
+				07E744BA191AA5B30050F855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07E744BB191AA5B30050F855 /* Build configuration list for PBXNativeTarget "iPad SplitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E744BC191AA5B30050F855 /* Debug */,
+				07E744BD191AA5B30050F855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		07E74497191AA5B20050F855 /* iPad_Split.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				07E74498191AA5B20050F855 /* iPad_Split.xcdatamodel */,
+			);
+			currentVersion = 07E74498191AA5B20050F855 /* iPad_Split.xcdatamodel */;
+			path = iPad_Split.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 07E74475191AA5B20050F855 /* Project object */;
+}

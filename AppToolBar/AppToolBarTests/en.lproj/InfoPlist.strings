@@ -1,0 +1,6 @@
+/* Localized versions of Info.plist keys */
+
+<key>UIStatusBarHidden</key>
+<true/>
+<key>UIViewControllerBasedStatusBarAppearance</key>
+<false/>

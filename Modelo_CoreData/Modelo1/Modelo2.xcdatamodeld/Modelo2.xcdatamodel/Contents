@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="13C64" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Actividad" representedClassName="Actividad" syncable="YES">
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="estaEn" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Tema" inverseName="tieneActividad" inverseEntity="Tema" syncable="YES"/>
+    </entity>
+    <entity name="Curso" representedClassName="Curso" syncable="YES">
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="tiene" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Tema" inverseName="estaEn" inverseEntity="Tema" syncable="YES"/>
+    </entity>
+    <entity name="Documento" representedClassName="Documento" syncable="YES">
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="estaEn" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Tema" inverseName="tieneDocumento" inverseEntity="Tema" syncable="YES"/>
+    </entity>
+    <entity name="Tema" representedClassName="Tema" syncable="YES">
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="estaEn" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Curso" inverseName="tiene" inverseEntity="Curso" syncable="YES"/>
+        <relationship name="tieneActividad" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Actividad" inverseName="estaEn" inverseEntity="Actividad" syncable="YES"/>
+        <relationship name="tieneDocumento" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Documento" inverseName="estaEn" inverseEntity="Documento" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Actividad" positionX="-45" positionY="36" width="128" height="73"/>
+        <element name="Curso" positionX="324" positionY="54" width="128" height="73"/>
+        <element name="Documento" positionX="-47" positionY="350" width="128" height="73"/>
+        <element name="Tema" positionX="142" positionY="194" width="128" height="103"/>
+    </elements>
+</model>

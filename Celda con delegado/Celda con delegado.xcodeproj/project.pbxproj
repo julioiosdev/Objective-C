@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07F2C2B418ACD29E00151C30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F2C2B318ACD29E00151C30 /* Foundation.framework */; };
+		07F2C2B618ACD29E00151C30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F2C2B518ACD29E00151C30 /* CoreGraphics.framework */; };
+		07F2C2B818ACD29E00151C30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F2C2B718ACD29E00151C30 /* UIKit.framework */; };
+		07F2C2BE18ACD29E00151C30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07F2C2BC18ACD29E00151C30 /* InfoPlist.strings */; };
+		07F2C2C018ACD29E00151C30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F2C2BF18ACD29E00151C30 /* main.m */; };
+		07F2C2C418ACD29E00151C30 /* CBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F2C2C318ACD29E00151C30 /* CBAppDelegate.m */; };
+		07F2C2C718ACD29E00151C30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F2C2C518ACD29E00151C30 /* Main.storyboard */; };
+		07F2C2CC18ACD29E00151C30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F2C2CB18ACD29E00151C30 /* Images.xcassets */; };
+		07F2C2D318ACD29E00151C30 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F2C2D218ACD29E00151C30 /* XCTest.framework */; };
+		07F2C2D418ACD29E00151C30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F2C2B318ACD29E00151C30 /* Foundation.framework */; };
+		07F2C2D518ACD29E00151C30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F2C2B718ACD29E00151C30 /* UIKit.framework */; };
+		07F2C2DD18ACD29E00151C30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07F2C2DB18ACD29E00151C30 /* InfoPlist.strings */; };
+		07F2C2DF18ACD29E00151C30 /* Celda_con_delegadoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F2C2DE18ACD29E00151C30 /* Celda_con_delegadoTests.m */; };
+		07F2C2EA18ACD2C800151C30 /* CBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F2C2E918ACD2C800151C30 /* CBTableViewController.m */; };
+		07F2C2ED18ACD31400151C30 /* CBCellConDelegado.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F2C2EC18ACD31400151C30 /* CBCellConDelegado.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07F2C2D618ACD29E00151C30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07F2C2A818ACD29E00151C30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07F2C2AF18ACD29E00151C30;
+			remoteInfo = "Celda con delegado";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07F2C2B018ACD29E00151C30 /* Celda con delegado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Celda con delegado.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F2C2B318ACD29E00151C30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07F2C2B518ACD29E00151C30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07F2C2B718ACD29E00151C30 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07F2C2BB18ACD29E00151C30 /* Celda con delegado-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Celda con delegado-Info.plist"; sourceTree = "<group>"; };
+		07F2C2BD18ACD29E00151C30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07F2C2BF18ACD29E00151C30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07F2C2C118ACD29E00151C30 /* Celda con delegado-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Celda con delegado-Prefix.pch"; sourceTree = "<group>"; };
+		07F2C2C218ACD29E00151C30 /* CBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBAppDelegate.h; sourceTree = "<group>"; };
+		07F2C2C318ACD29E00151C30 /* CBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBAppDelegate.m; sourceTree = "<group>"; };
+		07F2C2C618ACD29E00151C30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07F2C2CB18ACD29E00151C30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07F2C2D118ACD29E00151C30 /* Celda con delegadoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Celda con delegadoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F2C2D218ACD29E00151C30 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		07F2C2DA18ACD29E00151C30 /* Celda con delegadoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Celda con delegadoTests-Info.plist"; sourceTree = "<group>"; };
+		07F2C2DC18ACD29E00151C30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07F2C2DE18ACD29E00151C30 /* Celda_con_delegadoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Celda_con_delegadoTests.m; sourceTree = "<group>"; };
+		07F2C2E818ACD2C800151C30 /* CBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBTableViewController.h; sourceTree = "<group>"; };
+		07F2C2E918ACD2C800151C30 /* CBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBTableViewController.m; sourceTree = "<group>"; };
+		07F2C2EB18ACD31400151C30 /* CBCellConDelegado.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBCellConDelegado.h; sourceTree = "<group>"; };
+		07F2C2EC18ACD31400151C30 /* CBCellConDelegado.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBCellConDelegado.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07F2C2AD18ACD29E00151C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F2C2B618ACD29E00151C30 /* CoreGraphics.framework in Frameworks */,
+				07F2C2B818ACD29E00151C30 /* UIKit.framework in Frameworks */,
+				07F2C2B418ACD29E00151C30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F2C2CE18ACD29E00151C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F2C2D318ACD29E00151C30 /* XCTest.framework in Frameworks */,
+				07F2C2D518ACD29E00151C30 /* UIKit.framework in Frameworks */,
+				07F2C2D418ACD29E00151C30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07F2C2A718ACD29E00151C30 = {
+			isa = PBXGroup;
+			children = (
+				07F2C2B918ACD29E00151C30 /* Celda con delegado */,
+				07F2C2D818ACD29E00151C30 /* Celda con delegadoTests */,
+				07F2C2B218ACD29E00151C30 /* Frameworks */,
+				07F2C2B118ACD29E00151C30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07F2C2B118ACD29E00151C30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07F2C2B018ACD29E00151C30 /* Celda con delegado.app */,
+				07F2C2D118ACD29E00151C30 /* Celda con delegadoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07F2C2B218ACD29E00151C30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07F2C2B318ACD29E00151C30 /* Foundation.framework */,
+				07F2C2B518ACD29E00151C30 /* CoreGraphics.framework */,
+				07F2C2B718ACD29E00151C30 /* UIKit.framework */,
+				07F2C2D218ACD29E00151C30 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07F2C2B918ACD29E00151C30 /* Celda con delegado */ = {
+			isa = PBXGroup;
+			children = (
+				07F2C2C218ACD29E00151C30 /* CBAppDelegate.h */,
+				07F2C2C318ACD29E00151C30 /* CBAppDelegate.m */,
+				07F2C2C518ACD29E00151C30 /* Main.storyboard */,
+				07F2C2CB18ACD29E00151C30 /* Images.xcassets */,
+				07F2C2BA18ACD29E00151C30 /* Supporting Files */,
+				07F2C2E818ACD2C800151C30 /* CBTableViewController.h */,
+				07F2C2E918ACD2C800151C30 /* CBTableViewController.m */,
+				07F2C2EB18ACD31400151C30 /* CBCellConDelegado.h */,
+				07F2C2EC18ACD31400151C30 /* CBCellConDelegado.m */,
+			);
+			path = "Celda con delegado";
+			sourceTree = "<group>";
+		};
+		07F2C2BA18ACD29E00151C30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07F2C2BB18ACD29E00151C30 /* Celda con delegado-Info.plist */,
+				07F2C2BC18ACD29E00151C30 /* InfoPlist.strings */,
+				07F2C2BF18ACD29E00151C30 /* main.m */,
+				07F2C2C118ACD29E00151C30 /* Celda con delegado-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07F2C2D818ACD29E00151C30 /* Celda con delegadoTests */ = {
+			isa = PBXGroup;
+			children = (
+				07F2C2DE18ACD29E00151C30 /* Celda_con_delegadoTests.m */,
+				07F2C2D918ACD29E00151C30 /* Supporting Files */,
+			);
+			path = "Celda con delegadoTests";
+			sourceTree = "<group>";
+		};
+		07F2C2D918ACD29E00151C30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07F2C2DA18ACD29E00151C30 /* Celda con delegadoTests-Info.plist */,
+				07F2C2DB18ACD29E00151C30 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07F2C2AF18ACD29E00151C30 /* Celda con delegado */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F2C2E218ACD29E00151C30 /* Build configuration list for PBXNativeTarget "Celda con delegado" */;
+			buildPhases = (
+				07F2C2AC18ACD29E00151C30 /* Sources */,
+				07F2C2AD18ACD29E00151C30 /* Frameworks */,
+				07F2C2AE18ACD29E00151C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Celda con delegado";
+			productName = "Celda con delegado";
+			productReference = 07F2C2B018ACD29E00151C30 /* Celda con delegado.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07F2C2D018ACD29E00151C30 /* Celda con delegadoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F2C2E518ACD29E00151C30 /* Build configuration list for PBXNativeTarget "Celda con delegadoTests" */;
+			buildPhases = (
+				07F2C2CD18ACD29E00151C30 /* Sources */,
+				07F2C2CE18ACD29E00151C30 /* Frameworks */,
+				07F2C2CF18ACD29E00151C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07F2C2D718ACD29E00151C30 /* PBXTargetDependency */,
+			);
+			name = "Celda con delegadoTests";
+			productName = "Celda con delegadoTests";
+			productReference = 07F2C2D118ACD29E00151C30 /* Celda con delegadoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07F2C2A818ACD29E00151C30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CB;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Carlos Butron";
+				TargetAttributes = {
+					07F2C2D018ACD29E00151C30 = {
+						TestTargetID = 07F2C2AF18ACD29E00151C30;
+					};
+				};
+			};
+			buildConfigurationList = 07F2C2AB18ACD29E00151C30 /* Build configuration list for PBXProject "Celda con delegado" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07F2C2A718ACD29E00151C30;
+			productRefGroup = 07F2C2B118ACD29E00151C30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07F2C2AF18ACD29E00151C30 /* Celda con delegado */,
+				07F2C2D018ACD29E00151C30 /* Celda con delegadoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07F2C2AE18ACD29E00151C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F2C2CC18ACD29E00151C30 /* Images.xcassets in Resources */,
+				07F2C2BE18ACD29E00151C30 /* InfoPlist.strings in Resources */,
+				07F2C2C718ACD29E00151C30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F2C2CF18ACD29E00151C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F2C2DD18ACD29E00151C30 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07F2C2AC18ACD29E00151C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F2C2ED18ACD31400151C30 /* CBCellConDelegado.m in Sources */,
+				07F2C2C018ACD29E00151C30 /* main.m in Sources */,
+				07F2C2C418ACD29E00151C30 /* CBAppDelegate.m in Sources */,
+				07F2C2EA18ACD2C800151C30 /* CBTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F2C2CD18ACD29E00151C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F2C2DF18ACD29E00151C30 /* Celda_con_delegadoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07F2C2D718ACD29E00151C30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07F2C2AF18ACD29E00151C30 /* Celda con delegado */;
+			targetProxy = 07F2C2D618ACD29E00151C30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07F2C2BC18ACD29E00151C30 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F2C2BD18ACD29E00151C30 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07F2C2C518ACD29E00151C30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F2C2C618ACD29E00151C30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07F2C2DB18ACD29E00151C30 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F2C2DC18ACD29E00151C30 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07F2C2E018ACD29E00151C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07F2C2E118ACD29E00151C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07F2C2E318ACD29E00151C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Celda con delegado/Celda con delegado-Prefix.pch";
+				INFOPLIST_FILE = "Celda con delegado/Celda con delegado-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07F2C2E418ACD29E00151C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Celda con delegado/Celda con delegado-Prefix.pch";
+				INFOPLIST_FILE = "Celda con delegado/Celda con delegado-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		07F2C2E618ACD29E00151C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Celda con delegado.app/Celda con delegado";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Celda con delegado/Celda con delegado-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Celda con delegadoTests/Celda con delegadoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		07F2C2E718ACD29E00151C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Celda con delegado.app/Celda con delegado";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Celda con delegado/Celda con delegado-Prefix.pch";
+				INFOPLIST_FILE = "Celda con delegadoTests/Celda con delegadoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07F2C2AB18ACD29E00151C30 /* Build configuration list for PBXProject "Celda con delegado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F2C2E018ACD29E00151C30 /* Debug */,
+				07F2C2E118ACD29E00151C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07F2C2E218ACD29E00151C30 /* Build configuration list for PBXNativeTarget "Celda con delegado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F2C2E318ACD29E00151C30 /* Debug */,
+				07F2C2E418ACD29E00151C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07F2C2E518ACD29E00151C30 /* Build configuration list for PBXNativeTarget "Celda con delegadoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F2C2E618ACD29E00151C30 /* Debug */,
+				07F2C2E718ACD29E00151C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07F2C2A818ACD29E00151C30 /* Project object */;
+}

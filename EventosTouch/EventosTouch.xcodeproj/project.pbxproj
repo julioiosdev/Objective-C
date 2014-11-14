@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074245F618F1D19E006DA774 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074245F518F1D19E006DA774 /* Foundation.framework */; };
+		074245F818F1D19E006DA774 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074245F718F1D19E006DA774 /* CoreGraphics.framework */; };
+		074245FA18F1D19E006DA774 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074245F918F1D19E006DA774 /* UIKit.framework */; };
+		0742460018F1D19E006DA774 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 074245FE18F1D19E006DA774 /* InfoPlist.strings */; };
+		0742460218F1D19E006DA774 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0742460118F1D19E006DA774 /* main.m */; };
+		0742460618F1D19E006DA774 /* CBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0742460518F1D19E006DA774 /* CBAppDelegate.m */; };
+		0742460918F1D19E006DA774 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0742460718F1D19E006DA774 /* Main.storyboard */; };
+		0742460C18F1D19E006DA774 /* CBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0742460B18F1D19E006DA774 /* CBViewController.m */; };
+		0742460E18F1D19E006DA774 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0742460D18F1D19E006DA774 /* Images.xcassets */; };
+		0742461518F1D19E006DA774 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0742461418F1D19E006DA774 /* XCTest.framework */; };
+		0742461618F1D19E006DA774 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074245F518F1D19E006DA774 /* Foundation.framework */; };
+		0742461718F1D19E006DA774 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074245F918F1D19E006DA774 /* UIKit.framework */; };
+		0742461F18F1D19E006DA774 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0742461D18F1D19E006DA774 /* InfoPlist.strings */; };
+		0742462118F1D19E006DA774 /* EventosTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0742462018F1D19E006DA774 /* EventosTouchTests.m */; };
+		0742462C18F1D1B2006DA774 /* CBPizarra.m in Sources */ = {isa = PBXBuildFile; fileRef = 0742462B18F1D1B2006DA774 /* CBPizarra.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0742461818F1D19E006DA774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 074245EA18F1D19E006DA774 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 074245F118F1D19E006DA774;
+			remoteInfo = EventosTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		074245F218F1D19E006DA774 /* EventosTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventosTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		074245F518F1D19E006DA774 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		074245F718F1D19E006DA774 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		074245F918F1D19E006DA774 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		074245FD18F1D19E006DA774 /* EventosTouch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EventosTouch-Info.plist"; sourceTree = "<group>"; };
+		074245FF18F1D19E006DA774 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0742460118F1D19E006DA774 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0742460318F1D19E006DA774 /* EventosTouch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EventosTouch-Prefix.pch"; sourceTree = "<group>"; };
+		0742460418F1D19E006DA774 /* CBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBAppDelegate.h; sourceTree = "<group>"; };
+		0742460518F1D19E006DA774 /* CBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBAppDelegate.m; sourceTree = "<group>"; };
+		0742460818F1D19E006DA774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0742460A18F1D19E006DA774 /* CBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBViewController.h; sourceTree = "<group>"; };
+		0742460B18F1D19E006DA774 /* CBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBViewController.m; sourceTree = "<group>"; };
+		0742460D18F1D19E006DA774 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0742461318F1D19E006DA774 /* EventosTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventosTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0742461418F1D19E006DA774 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0742461C18F1D19E006DA774 /* EventosTouchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EventosTouchTests-Info.plist"; sourceTree = "<group>"; };
+		0742461E18F1D19E006DA774 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0742462018F1D19E006DA774 /* EventosTouchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventosTouchTests.m; sourceTree = "<group>"; };
+		0742462A18F1D1B2006DA774 /* CBPizarra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBPizarra.h; sourceTree = "<group>"; };
+		0742462B18F1D1B2006DA774 /* CBPizarra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBPizarra.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		074245EF18F1D19E006DA774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074245F818F1D19E006DA774 /* CoreGraphics.framework in Frameworks */,
+				074245FA18F1D19E006DA774 /* UIKit.framework in Frameworks */,
+				074245F618F1D19E006DA774 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0742461018F1D19E006DA774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0742461518F1D19E006DA774 /* XCTest.framework in Frameworks */,
+				0742461718F1D19E006DA774 /* UIKit.framework in Frameworks */,
+				0742461618F1D19E006DA774 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		074245E918F1D19E006DA774 = {
+			isa = PBXGroup;
+			children = (
+				074245FB18F1D19E006DA774 /* EventosTouch */,
+				0742461A18F1D19E006DA774 /* EventosTouchTests */,
+				074245F418F1D19E006DA774 /* Frameworks */,
+				074245F318F1D19E006DA774 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		074245F318F1D19E006DA774 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				074245F218F1D19E006DA774 /* EventosTouch.app */,
+				0742461318F1D19E006DA774 /* EventosTouchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		074245F418F1D19E006DA774 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				074245F518F1D19E006DA774 /* Foundation.framework */,
+				074245F718F1D19E006DA774 /* CoreGraphics.framework */,
+				074245F918F1D19E006DA774 /* UIKit.framework */,
+				0742461418F1D19E006DA774 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		074245FB18F1D19E006DA774 /* EventosTouch */ = {
+			isa = PBXGroup;
+			children = (
+				0742460418F1D19E006DA774 /* CBAppDelegate.h */,
+				0742460518F1D19E006DA774 /* CBAppDelegate.m */,
+				0742460718F1D19E006DA774 /* Main.storyboard */,
+				0742460A18F1D19E006DA774 /* CBViewController.h */,
+				0742460B18F1D19E006DA774 /* CBViewController.m */,
+				0742460D18F1D19E006DA774 /* Images.xcassets */,
+				074245FC18F1D19E006DA774 /* Supporting Files */,
+				0742462A18F1D1B2006DA774 /* CBPizarra.h */,
+				0742462B18F1D1B2006DA774 /* CBPizarra.m */,
+			);
+			path = EventosTouch;
+			sourceTree = "<group>";
+		};
+		074245FC18F1D19E006DA774 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				074245FD18F1D19E006DA774 /* EventosTouch-Info.plist */,
+				074245FE18F1D19E006DA774 /* InfoPlist.strings */,
+				0742460118F1D19E006DA774 /* main.m */,
+				0742460318F1D19E006DA774 /* EventosTouch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0742461A18F1D19E006DA774 /* EventosTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				0742462018F1D19E006DA774 /* EventosTouchTests.m */,
+				0742461B18F1D19E006DA774 /* Supporting Files */,
+			);
+			path = EventosTouchTests;
+			sourceTree = "<group>";
+		};
+		0742461B18F1D19E006DA774 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0742461C18F1D19E006DA774 /* EventosTouchTests-Info.plist */,
+				0742461D18F1D19E006DA774 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		074245F118F1D19E006DA774 /* EventosTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0742462418F1D19E006DA774 /* Build configuration list for PBXNativeTarget "EventosTouch" */;
+			buildPhases = (
+				074245EE18F1D19E006DA774 /* Sources */,
+				074245EF18F1D19E006DA774 /* Frameworks */,
+				074245F018F1D19E006DA774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EventosTouch;
+			productName = EventosTouch;
+			productReference = 074245F218F1D19E006DA774 /* EventosTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0742461218F1D19E006DA774 /* EventosTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0742462718F1D19E006DA774 /* Build configuration list for PBXNativeTarget "EventosTouchTests" */;
+			buildPhases = (
+				0742460F18F1D19E006DA774 /* Sources */,
+				0742461018F1D19E006DA774 /* Frameworks */,
+				0742461118F1D19E006DA774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0742461918F1D19E006DA774 /* PBXTargetDependency */,
+			);
+			name = EventosTouchTests;
+			productName = EventosTouchTests;
+			productReference = 0742461318F1D19E006DA774 /* EventosTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		074245EA18F1D19E006DA774 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Carlos Butron";
+				TargetAttributes = {
+					0742461218F1D19E006DA774 = {
+						TestTargetID = 074245F118F1D19E006DA774;
+					};
+				};
+			};
+			buildConfigurationList = 074245ED18F1D19E006DA774 /* Build configuration list for PBXProject "EventosTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 074245E918F1D19E006DA774;
+			productRefGroup = 074245F318F1D19E006DA774 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				074245F118F1D19E006DA774 /* EventosTouch */,
+				0742461218F1D19E006DA774 /* EventosTouchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		074245F018F1D19E006DA774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0742460E18F1D19E006DA774 /* Images.xcassets in Resources */,
+				0742460018F1D19E006DA774 /* InfoPlist.strings in Resources */,
+				0742460918F1D19E006DA774 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0742461118F1D19E006DA774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0742461F18F1D19E006DA774 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		074245EE18F1D19E006DA774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0742462C18F1D1B2006DA774 /* CBPizarra.m in Sources */,
+				0742460218F1D19E006DA774 /* main.m in Sources */,
+				0742460618F1D19E006DA774 /* CBAppDelegate.m in Sources */,
+				0742460C18F1D19E006DA774 /* CBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0742460F18F1D19E006DA774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0742462118F1D19E006DA774 /* EventosTouchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0742461918F1D19E006DA774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 074245F118F1D19E006DA774 /* EventosTouch */;
+			targetProxy = 0742461818F1D19E006DA774 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		074245FE18F1D19E006DA774 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				074245FF18F1D19E006DA774 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0742460718F1D19E006DA774 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0742460818F1D19E006DA774 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0742461D18F1D19E006DA774 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0742461E18F1D19E006DA774 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0742462218F1D19E006DA774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0742462318F1D19E006DA774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0742462518F1D19E006DA774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EventosTouch/EventosTouch-Prefix.pch";
+				INFOPLIST_FILE = "EventosTouch/EventosTouch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0742462618F1D19E006DA774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EventosTouch/EventosTouch-Prefix.pch";
+				INFOPLIST_FILE = "EventosTouch/EventosTouch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0742462818F1D19E006DA774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EventosTouch.app/EventosTouch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EventosTouch/EventosTouch-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EventosTouchTests/EventosTouchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0742462918F1D19E006DA774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EventosTouch.app/EventosTouch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EventosTouch/EventosTouch-Prefix.pch";
+				INFOPLIST_FILE = "EventosTouchTests/EventosTouchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		074245ED18F1D19E006DA774 /* Build configuration list for PBXProject "EventosTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0742462218F1D19E006DA774 /* Debug */,
+				0742462318F1D19E006DA774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0742462418F1D19E006DA774 /* Build configuration list for PBXNativeTarget "EventosTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0742462518F1D19E006DA774 /* Debug */,
+				0742462618F1D19E006DA774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0742462718F1D19E006DA774 /* Build configuration list for PBXNativeTarget "EventosTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0742462818F1D19E006DA774 /* Debug */,
+				0742462918F1D19E006DA774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 074245EA18F1D19E006DA774 /* Project object */;
+}
